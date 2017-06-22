@@ -1,0 +1,37 @@
+.navbar-custom {
+	background-color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	color: black;
+	font-style: Arial;
+	font-size: 1em;
+}
+
+#contact {
+	background: white;
+	padding: 10%
+}
+.hangman {
+	padding-top: 10%;
+	position: relative;
+	width: 100%;
+}
+
+.trivia {
+	position: relative;
+	width: 100%;
+}
+
+
+
+h4 span {
+	color: black;
+	font: arial;
+	background: #a0ffe9;
+	padding: 10px;
+	
+position: relative;
+top: -69px;
+left: 5px;
+}
