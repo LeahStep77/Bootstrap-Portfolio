@@ -31,7 +31,20 @@ h4 span {
 	background: #a0ffe9;
 	padding: 10px;
 	
-position: relative;
-top: -69px;
-left: 5px;
+	position: relative;
+	top: -69px;
+	left: 5px;
+}
+
+@media only screen and (max-width: 600px)  {...}
+
+@media only screen and (max-width: 640px) {
+    /* For laptop: */
+
+   header {width: 100%; margin-top: 0px;}
+   aside {width: 75%; float: none !important; margin: 7%;}
+   footer {width: 100%;}
+   nav {width: 100%;}
+  .navbar-brand {display: none;}
+   #connect {width: 110%; margin-left: -50px;} 
 }
